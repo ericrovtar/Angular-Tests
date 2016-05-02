@@ -1,0 +1,41 @@
+{
+    "totalItemCount": 7,
+    "query": "kids",
+    "items": [
+        {
+            "title": "Kids' Tennis",
+            "url": "/events/2016/04/09/kids-tennis",
+            "description": "Parents, are your kids getting stir-crazy? Sign your 5-8 year-olds up for a four-week kids' tennis clinic. They'll learn the basics and get a free t-shirt and racquet! Cost is $25."
+        },
+        {
+            "title": "Kids",
+            "url": "/church-life/kids",
+            "description": "We offer kid-safe and age-specific environments for kids birth-5th grade during all weekend services. Just stop by one of the Children’s Welcome Desks and we’ll get your kiddos checked in and ready to roll!"
+        },
+        {
+            "title": "Weekend Pre-registration",
+            "url": "/church-life/kids/weekend-pre-registration",
+            "description": ""
+        },
+        {
+            "title": "New Here",
+            "url": "/new-here",
+            "description": "You fit in here Really, you do. Find out what’s going on around here so you can find out how. There’s a group, a class, an event…something just for you. This church thing really is more fun together. Kids Students Men Women"
+        },
+        {
+            "title": "Church Life",
+            "url": "/church-life",
+            "description": "You fit in here Really, you do. Find out what’s going on around here so you can find out how. There’s a group, a class, an event…something just for you. This church thing really is more fun together. Kids Students Men Women"
+        },
+        {
+            "title": "Next Steps",
+            "url": "/next-steps",
+            "description": "Membership It’s more like a member of the body of Christ and less like a membership to Sam’s Club. Membership isn’t admittance to the cool kids’ club, given rights, anonymity or a temporary investment…"
+        },
+        {
+            "title": "God Cuts a Covenant",
+            "url": "/messages/the-promise/2016/03/06/god-cuts-a-covenant",
+            "description": "When God made grand promises to Abraham, he initially doubted and couldn’t see how they’d be fulfilled. God makes a covenant, or a promise, with Abraham and it tells us much about God’s nature and what it means to trust him…"
+        }
+    ]
+}
