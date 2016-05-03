@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="modalApp">
 
 <head>
     <meta charset="utf-8" />
@@ -10,7 +10,7 @@
     <h1>ng-include</h1>
     <h2>Modal Test</h2>
     
-    <div ng-app="modalApp" ng-controller="modalController">
+    <div ng-controller="modalController">
         <select ng-model="template" ng-options="t.name for t in templates" ng-change="change()"></select>
         
         <div compile="html"></div>
