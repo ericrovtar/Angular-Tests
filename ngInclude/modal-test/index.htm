@@ -19,7 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.min.js"></script>
     <script>
-        angular.module('modalApp', [], function($compileProvider) {
+        angular.module('modalApp', ['modalServices'], function($compileProvider) {
             // configure new 'compile' directive by passing a directive
             // factory function. The factory function injects the '$compile'
             $compileProvider.directive('compile', function($compile) {
@@ -125,6 +125,14 @@
                     $scope.html = '';
                 }
             }
+        }]);
+        
+        var modalServices = angular.module('modalServices', ['ngResource']);
+
+        modalServices.factory('Search', ['$resource', function($resource) {
+            return $resource('', {}, {
+                query: { method: 'GET', params: { keywords: 'keywords', maxCount: 3 }, isArray: true }
+            });
         }]);
         
         // var modalApp = document.getElementById('modalApp');
